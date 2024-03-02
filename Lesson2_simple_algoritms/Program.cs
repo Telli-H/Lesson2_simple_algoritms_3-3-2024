@@ -73,22 +73,22 @@ else
 // Задача 4: Напишите программу, которая на вход принимает натуральное число N, 
 // а на выходе показывает его цифры через запятую.
 
-Console.WriteLine("input natural N");
-int num = Convert.ToInt32(Console.ReadLine());
-if (num <= 0)
-{
-    Console.WriteLine("Error: Enter a natural number that is greater than  0.");
-    return;
-}
-string digitsString = num.ToString();
+// Console.WriteLine("input natural N");
+// int num = Convert.ToInt32(Console.ReadLine());
+// if (num <= 0)
+// {
+//     Console.WriteLine("Error: Enter a natural number that is greater than  0.");
+//     return;
+// }
+// string digitsString = num.ToString();
 
-for (int i = 0; i < digitsString.Length; i++)
-{
-    Console.Write(digitsString[i]);
+// for (int i = 0; i < digitsString.Length; i++)
+// {
+//     Console.Write(digitsString[i]);
 
-    if (i < digitsString.Length - 1)
-    {
-        Console.Write(", ");
-    }
-}
+//     if (i < digitsString.Length - 1)
+//     {
+//         Console.Write(", ");
+//     }
+// }
 
