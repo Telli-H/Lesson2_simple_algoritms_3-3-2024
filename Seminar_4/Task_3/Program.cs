@@ -53,4 +53,4 @@ int[] arrayMain = CreateArrayRndInt(count, minimum, maximum);
 PrintArray(arrayMain);
 
 Console.WriteLine();
-Console.WriteLine(ArrayToInteger(arrayMain-));
+Console.WriteLine(ArrayToInteger(arrayMain));
