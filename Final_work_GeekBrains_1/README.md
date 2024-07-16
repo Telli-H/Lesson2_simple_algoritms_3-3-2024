@@ -70,3 +70,6 @@ static void PrintArray(string[] arr)
     }
 ```
 
+
+**Блок-Схема**
+![Блок-схема](blok_sxema.jpg)
